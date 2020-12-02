@@ -145,5 +145,8 @@
     <Content Include="priconfig.default.xml" />
     <Content Include="priconfig.packaging.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageLayout Include="App.packagelayout" />
+  </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
 </Project>
